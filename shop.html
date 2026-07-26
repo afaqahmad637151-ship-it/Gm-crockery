@@ -24,6 +24,13 @@
 <header>
 
      <ul class="nav-links">
+<nav class="navbar">
+
+        <div class="logo">
+            <h2>GM CROCKERY</h2>
+        </div>
+
+        <ul class="nav-links">
 
             <li><a href="index.html">Home</a></li>
 
@@ -33,7 +40,15 @@
 
             <li><a href="contact.html">Contact</a></li>
 
+            <li>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
 
+        </ul>
+
+    </nav>
 </header>
 
 <!--=====================
@@ -54,6 +69,17 @@
     </div>
 
 </section>
+<div class="shop-search">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products..."
+    >
+
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+</div>
 
 <!--=====================
      CATEGORY FILTER
@@ -88,95 +114,301 @@
     <div class="product-container">
 
     <!-- Product 1 -->
-    <div class="product-card" data-category="Dinner sets">
+     <div class="product-card" data-category="Dinner sets"> 
+            <a href="product.html?id=1">
+        <div class="product-image">
+        <a href="product.html">
         <img src="Luxury gold border dinner.jpg" alt="Luxury Dinner Set">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
         <h3>Luxury Dinner Set</h3>
+                    </a>
         <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
 
     <!-- Product 2 -->
-    <div class="product-card" data-category="dinner">
-        <img src="images/dinner2.jpg" alt="Classic Dinner Set">
-        <h3>Classic Dinner Set</h3>
-        <p class="price">Rs. 5,800</p>
+     <div class="product-card" data-category="Dinner sets"> 
+        <div class="product-image">
+        <a href="product.html?id=1">
+        <img src="image 4.png" alt="Luxury Dinner Set">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3> Dinner Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
 
     <!-- Product 3 -->
-    <div class="product-card" data-category="tea">
-        <img src="images/tea1.jpg" alt="Floral Tea Set">
-        <h3>Floral Tea Set</h3>
-        <p class="price">Rs. 2,400</p>
+ <div class="product-card" data-category="Tea sets"> 
+        <div class="product-image">
+        <a href="product.html?id=2">
+        <img src="image 3.png" alt="Tea sets">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Classic Tea Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
 
     <!-- Product 4 -->
-    <div class="product-card" data-category="tea">
-        <img src="images/tea2.jpg" alt="Gold Rim Tea Set">
-        <h3>Gold Rim Tea Set</h3>
-        <p class="price">Rs. 2,800</p>
+     <div class="product-card" data-category="Glassware"> 
+        <div class="product-image">
+        <a href="product.html?id=3">
+        <img src="image1.jpg" alt="Glassware">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Glass Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
 
     <!-- Product 5 -->
-    <div class="product-card" data-category="glassware">
-        <img src="images/glass1.jpg" alt="Crystal Glass Set">
-        <h3>Crystal Glass Set</h3>
-        <p class="price">Rs. 1,800</p>
+     <div class="product-card" data-category="Bowls"> 
+        <div class="product-image">
+        <a href="product.html?id=4">
+        <img src="image 5.jpg" alt="">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Soup Bowl Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
-
     <!-- Product 6 -->
-    <div class="product-card" data-category="glassware">
-        <img src="images/glass2.jpg" alt="Premium Glass Set">
-        <h3>Premium Glass Set</h3>
-        <p class="price">Rs. 2,200</p>
-        <div class="rating">
-            ★★★★★
+     <div class="product-card" data-category="Bowls"> 
+        <div class="product-image">
+        <a href="product.html?id=4">
+        <img src="image 2.jpg" alt="Luxury Dinner Set">
+        </a>
         </div>
-        <button>Add to Cart</button>
-    </div>
-
-    <!-- Product 7 -->
-    <div class="product-card" data-category="bowls">
-        <img src="images/bowl1.jpg" alt="Ceramic Bowl Set">
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
         <h3>Ceramic Bowl Set</h3>
-        <p class="price">Rs. 2,000</p>
+                    </a>
+        <p class="price">Rs. 6,500</p>
         <div class="rating">
             ★★★★★
         </div>
-        <button>Add to Cart</button>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <!-- Product 7 -->
+ <div class="product-card" data-category="Bowls"> 
+        <div class="product-image">
+        <a href="product.html?id=4">
+        <img src="image 6.jpg" alt="Bowls">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Rice bowl Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <!-- Product 8 -->
+     <div class="product-card" data-category="Bowls"> 
+        <div class="product-image">
+        <a href="product.html?id=4">
+        <img src="image 7.jpg" alt="Bowls">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Pasta Bowl set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Tea set"> 
+        <div class="product-image">
+        <a href="product.html?id=2">
+        <img src="floral tea.png" alt="Bowls">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Floral Tea set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Tea Set"> 
+        <div class="product-image">
+        <a href="product.html?id=2">
+        <img src="glass tea.jpg" alt="Tea set">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Glass Tea set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Tea Set"> 
+        <div class="product-image">
+        <a href="product.html?id=2">
+        <img src="gold rim tea.jpg" alt="Tea Set">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Gold rim Tea Set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Tea Set"> 
+        <div class="product-image">
+        <a href="product.html?id=2">
+        <img src="porcelain tea set.jpg" alt="Tea Set">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Porcelain Tea set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Glassware"> 
+        <div class="product-image">
+        <a href="product.html?id=3">
+        <img src="glass pitcher.jpg" alt="Glassware">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Pitcher set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Glassware"> 
+        <div class="product-image">
+        <a href="product.html?id=3">
+        <img src="water glass.jpg" alt="Glassware">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Water Glass set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
+    </div>
+    <div class="product-card" data-category="Glassware"> 
+        <div class="product-image">
+        <a href="product.html?id=3">
+        <img src="juice glass.jpg" alt="Glassware">
+        </a>
+        </div>
+                <i class="fa-regular fa-heart wishlist"></i>
+                    <a href="product.html" class="product-link">
+        <h3>Juice Glass set</h3>
+                    </a>
+        <p class="price">Rs. 6,500</p>
+        <div class="rating">
+            ★★★★★
+        </div>
+        <button class="cart-btn">
+            Add to cart
+        </button>
     </div>
 
-    <!-- Product 8 -->
-    <div class="product-card" data-category="bowls">
-        <img src="images/bowl2.jpg" alt="Luxury Bowl Set">
-        <h3>Luxury Bowl Set</h3>
-        <p class="price">Rs. 2,600</p>
-        <div class="rating">
-            ★★★★★
-        </div>
-        <button>Add to Cart</button>
-    </div>
 
 </div>
 
 </section>
+<div class="load-more">
+
+    <button id="loadMoreBtn">
+
+        Load More
+
+    </button>
+
+</div>
 </body>
 </html>
