@@ -105,7 +105,7 @@ img{
 
 
 .hero{
-    background-image: url("poster.jpeg");
+    background-image: url("banner 3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -369,8 +369,8 @@ flex-direction: column;
     overflow:hidden;
 
     background:
-    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("collection-banner.jpg");
+    linear-gradient(rgba(101, 99, 99, 0.45),rgba(0,0,0,.45)),
+    url("story img.png") no-repeat center center;
 
     background-size:cover;
 
