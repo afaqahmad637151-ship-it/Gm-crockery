@@ -245,9 +245,7 @@ flex-direction: column;
 .product-card button:hover{
     background: #D4AF37;
 }
-/*=============================
-      SPECIAL OFFER
-=============================*/
+
 
 .offer-banner{
 
@@ -358,9 +356,7 @@ flex-direction: column;
     background:#6F4E37;
 
 }
-/*=========================
-    COLLECTION BANNER
-==========================*/
+
 
 .collection-banner{
 
@@ -461,9 +457,6 @@ flex-direction: column;
 .newsletter{
     margin-top: 80px;
 }
-/*=========================
-      NEWSLETTER
-==========================*/
 
 .newsletter{
 
@@ -587,9 +580,6 @@ flex-direction: column;
     background:#b8932f;
 
 }
-/*=========================
-        FOOTER
-==========================*/
 
 .footer{
 
@@ -716,19 +706,9 @@ flex-direction: column;
     color: #666;
 }
 @media(max-width:768px){
-
-.hero{
-    flex-direction:column;
-    text-align:center;
-}
-
-.hero-image{
-    margin-top:30px;
-}
-
-.hero-image img{
-    max-width:350px;
-    margin:auto;
-}
-
+    display: flex;
+img{
+    max-width: 100%;
+    display: block;
+} 
 }
