@@ -1,0 +1,38 @@
+.menu-toggle{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+        font-size:30px;
+        cursor:pointer;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#fff;
+        flex-direction:column;
+        padding:20px 0;
+        box-shadow:0 5px 15px rgba(0,0,0,.15);
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
+@media (min-width:769px){
+
+    .nav-links{
+        display:flex !important;
+        position:static;
+        flex-direction:row;
+        box-shadow:none;
+    }
+
+}
